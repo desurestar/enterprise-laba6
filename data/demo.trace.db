@@ -1,0 +1,21 @@
+2025-12-14 21:59:01.908909+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 21:59:12.670449+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 21:59:36.005910+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 21:59:41.845243+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 21:59:59.471916+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 22:00:26.293455+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]
+2025-12-14 22:00:36.222419+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+SELECT username, password, role FROM users WHERE username = ? [42104-232]

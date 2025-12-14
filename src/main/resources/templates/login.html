@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+<h1>Аутентификация</h1>
+
+<div th:if="${param.error}">
+    <p style="color:red">Неверный логин или пароль</p>
+</div>
+
+<form th:action="@{/perform_login}" method="post">
+    <div>
+        <label>Логин: <input type="text" name="username"/></label>
+    </div>
+    <div>
+        <label>Пароль: <input type="password" name="password"/></label>
+    </div>
+    <div>
+        <button type="submit">Войти</button>
+    </div>
+</form>
+
+<div sec:authorize="isAuthenticated()">
+    Авторизован как <span sec:authentication="name"></span>
+</div>
+</body>
+</html>
